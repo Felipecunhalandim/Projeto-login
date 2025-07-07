@@ -25,11 +25,12 @@ main{
     position: relative;
     height: 100vh;
     width: 100vw;
+   
 }
 
 section#login{
     background-color: white;
-    width: 250px;
+    width: 278px;
     height: 500px;
     border-radius: 20px;
     position: absolute;
@@ -38,6 +39,9 @@ section#login{
     transform: translate(-50%,-50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width: 0.3s; height:0.3s ;
+    
 
 
 }
@@ -55,3 +59,21 @@ section#login > div#formulario{
     display: block;
     padding: 10px;
 }
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+}
+
+div#formulario > p {
+    font-size: 1em;
+}
+
+div#campo{
+    padding: 6px;
+    font-size: 1em;
+}
+
+
+
